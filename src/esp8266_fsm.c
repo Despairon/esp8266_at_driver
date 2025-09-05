@@ -1,4 +1,4 @@
-#include <esp8266/include/esp8266_fsm.h>
+#include <esp8266_fsm.h>
 #include <at_commands.h>
 
 #define ESP8266_AT_CMD_RESET "RST"

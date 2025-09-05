@@ -2,7 +2,6 @@
 #define ESP8266_DRIVER_H
 
 #include "esp8266_common.h"
-#include <stdbool.h>
 
 #define ESP8266_AT_SERIAL_IFACE_LINE_ENDING "\r\n"
 #define ESP8266_AT_SERIAL_IFACE_MAX_READ_N 128U

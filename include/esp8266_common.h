@@ -1,7 +1,11 @@
 #ifndef ESP8266_COMMON_H
 #define ESP8266_COMMON_H
 
-#define ESP8266_IP_ADDR_INFO_ITEM_SIZE 32U 
+#include <stdbool.h>
+#include <stdint.h>
+#include <stddef.h>
+
+#define ESP8266_IP_ADDR_INFO_ITEM_SIZE 32U
 
 typedef enum esp8266_wifi_mode_e
 {

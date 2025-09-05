@@ -2,7 +2,7 @@
 #define ESP8266_DRIVER_FSM_H
 
 #include <simple_fsm_v1.h>
-#include <esp8266/include/esp8266_driver.h>
+#include <esp8266_driver.h>
 
 typedef enum esp8266_fsm_state_e
 {
